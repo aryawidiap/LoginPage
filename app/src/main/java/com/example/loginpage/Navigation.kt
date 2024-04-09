@@ -5,6 +5,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.loginpage.ui.theme.HomeScreen
+import com.example.loginpage.ui.theme.LoginScreen
 
 sealed class Route {
     data class LoginScreen(val name:String = "Login"):Route()
